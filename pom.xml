@@ -8,6 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
+	<java.version>1.8</java.version>
 	<mavem.compiler.source>1.7</mavem.compiler.source>
 	<mavem.compiler.target>1.7</mavem.compiler.target>
 	</properties>
