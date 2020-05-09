@@ -23,7 +23,6 @@ public class APITest {
 			.statusCode(200)
 		;
 	}
-	
 	@Test
 	public void deveAddTasComSucesso() {
 		RestAssured.given()
@@ -35,7 +34,6 @@ public class APITest {
 			.statusCode(201)
 		;
 	}
-	
 	@Test
 	public void NaodeveAddTasInvalida() {
 		RestAssured.given()
@@ -48,6 +46,6 @@ public class APITest {
 			.body("message", CoreMatchers.is("Due date must not be in past"))
 		;
 	}
-}
+}//
 
 
